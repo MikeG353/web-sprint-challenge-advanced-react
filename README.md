@@ -30,13 +30,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
+Use the class, extends, constructor, and super keywords to create a class component containing state.
+
 2. Describe the different phases of the component lifecycle.
+
+The mount phase, when component are mounted to the DOM
+the update phase, where changes to state and props occur
+and the unmount phase, when a component is removed from the DOM
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
 4. Define stateful logic.
 
+ statefull logic is logic contained in a component that usually deals with state. 
+
 5. Describe how to test a React component with React Testing Library.
+
+using the "test" keyword, we can write tests in the same manner that we did with cypress. Inside the .test.js file for that component we can "arrange, act, and assert" our test, costructing what we need, telling the test script how to behave on teh virtual DOM, and providing statements to what the expected outcome is.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -54,15 +64,15 @@ _Please follow the setup instructions closely so that you can get everything up 
 
 **Basic set up**
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project
+- [x] Add your team lead as collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 
 **Starting the server**
 
-- [ ] Run `npm install` to download dependencies for the server.
-- [ ] Run the server using `npm start`.
+- [x] Run `npm install` to download dependencies for the server.
+- [x] Run the server using `npm start`.
 - [ ] Open a new browser tab and navigate to `http://localhost:3333/plants` - if you see a JSON object with plants data, then you know the server is running 👍
 
 **Starting the React app**
